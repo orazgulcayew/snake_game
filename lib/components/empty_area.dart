@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Apple extends StatelessWidget {
-  const Apple({super.key});
+class EmptyArea extends StatelessWidget {
+  const EmptyArea({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(4),
-        color: Colors.red,
+        // borderRadius: BorderRadius.circular(2),
+        color: Colors.grey[800],
       ),
     );
   }
